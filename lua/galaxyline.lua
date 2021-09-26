@@ -1,1 +1,1 @@
-return require("galaxyline.providers").load_providers()
+return require("galaxyline.provider").load_providers()
