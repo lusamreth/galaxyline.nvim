@@ -1,6 +1,6 @@
 local function load_providers()
     return {
-        conditions = require("condtions"),
+        conditions = require("galaxyline.condtions"),
         vcs = require("galaxyline.providers.vcs"),
         fileinfo = require("galaxyline.providers.fileinfo"),
         buffer = require("galaxyline.providers.buffer"),
